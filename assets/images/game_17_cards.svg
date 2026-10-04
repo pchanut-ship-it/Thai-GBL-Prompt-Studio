@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardArenaBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="aliveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="deadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#cardArenaBg)"/>
+
+  <!-- Top bar -->
+  <rect x="60" y="24" width="1160" height="64" rx="16" fill="#27272a" stroke="#3f3f46"/>
+  <text x="100" y="65" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fafafa">🃏 การ์ดแบทเทิล: ไพ่คำเป็น–คำตาย (Alive vs Dead Syllables)</text>
+  <rect x="960" y="38" width="220" height="36" rx="18" fill="#e11d48" opacity="0.2"/>
+  <text x="1070" y="62" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fb7185" text-anchor="middle">🔥 STREAK COMBO: x7</text>
+
+  <!-- Arena Deck Slots (Drop Zones) -->
+  <!-- Left Zone: กองไพ่คำเป็น (Alive / Sun) -->
+  <g transform="translate(140, 120)">
+    <rect width="450" height="340" rx="24" fill="#064e3b" stroke="#10b981" stroke-width="3" stroke-dasharray="10 8"/>
+    <circle cx="225" cy="110" r="45" fill="#10b981" opacity="0.3"/>
+    <text x="225" y="125" font-size="44" text-anchor="middle">☀️</text>
+    <text x="225" y="190" font-family="'Prompt', sans-serif" font-size="30" font-weight="bold" fill="#6ee7b7" text-anchor="middle">กองไพ่: คำเป็น</text>
+    <text x="225" y="230" font-family="'Prompt', sans-serif" font-size="16" fill="#a7f3d0" text-anchor="middle">สระเสียงยาว หรือ สะกดด้วย นมยวง</text>
+    <rect x="145" y="270" width="160" height="40" rx="20" fill="#059669"/>
+    <text x="225" y="296" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">คะแนนกอง: 8 ใบ</text>
+  </g>
+
+  <!-- Right Zone: กองไพ่คำตาย (Dead / Moon) -->
+  <g transform="translate(690, 120)">
+    <rect width="450" height="340" rx="24" fill="#7f1d1d" stroke="#ef4444" stroke-width="3" stroke-dasharray="10 8"/>
+    <circle cx="225" cy="110" r="45" fill="#ef4444" opacity="0.3"/>
+    <text x="225" y="125" font-size="44" text-anchor="middle">💀</text>
+    <text x="225" y="190" font-family="'Prompt', sans-serif" font-size="30" font-weight="bold" fill="#fca5a5" text-anchor="middle">กองไพ่: คำตาย</text>
+    <text x="225" y="230" font-family="'Prompt', sans-serif" font-size="16" fill="#fecaca" text-anchor="middle">สระเสียงสั้น หรือ สะกดด้วย กบด (กบฎ)</text>
+    <rect x="145" y="270" width="160" height="40" rx="20" fill="#dc2626"/>
+    <text x="225" y="296" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">คะแนนกอง: 6 ใบ</text>
+  </g>
+
+  <!-- Player's Hand Cards (Bottom) -->
+  <text x="640" y="505" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#a1a1aa" text-anchor="middle">
+    👇 ไพ่ในมือของคุณ (คลิกหรือลากไปวางในกองที่ถูกต้อง):
+  </text>
+
+  <!-- Card 1 -->
+  <g transform="translate(260, 525)">
+    <rect width="160" height="150" rx="14" fill="#27272a" stroke="#fbbf24" stroke-width="3"/>
+    <text x="80" y="35" font-family="'Prompt', sans-serif" font-size="14" fill="#fef08a" text-anchor="middle">CARD #1</text>
+    <text x="80" y="85" font-family="'Prompt', sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">ดาว</text>
+    <text x="80" y="125" font-family="'Prompt', sans-serif" font-size="13" fill="#a1a1aa" text-anchor="middle">สะกดด้วย ว (เกอว)</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(460, 525)">
+    <rect width="160" height="150" rx="14" fill="#27272a" stroke="#fbbf24" stroke-width="3"/>
+    <text x="80" y="35" font-family="'Prompt', sans-serif" font-size="14" fill="#fef08a" text-anchor="middle">CARD #2</text>
+    <text x="80" y="85" font-family="'Prompt', sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">กบ</text>
+    <text x="80" y="125" font-family="'Prompt', sans-serif" font-size="13" fill="#a1a1aa" text-anchor="middle">สะกดด้วย บ (กบ)</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(660, 525)">
+    <rect width="160" height="150" rx="14" fill="#27272a" stroke="#fbbf24" stroke-width="3"/>
+    <text x="80" y="35" font-family="'Prompt', sans-serif" font-size="14" fill="#fef08a" text-anchor="middle">CARD #3</text>
+    <text x="80" y="85" font-family="'Prompt', sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">มะลิ</text>
+    <text x="80" y="125" font-family="'Prompt', sans-serif" font-size="13" fill="#a1a1aa" text-anchor="middle">สระเสียงสั้นไม่มีตัวสะกด</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(860, 525)">
+    <rect width="160" height="150" rx="14" fill="#27272a" stroke="#fbbf24" stroke-width="3"/>
+    <text x="80" y="35" font-family="'Prompt', sans-serif" font-size="14" fill="#fef08a" text-anchor="middle">CARD #4</text>
+    <text x="80" y="85" font-family="'Prompt', sans-serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle">โรงเรียน</text>
+    <text x="80" y="125" font-family="'Prompt', sans-serif" font-size="13" fill="#a1a1aa" text-anchor="middle">สะกดด้วย ง และ น</text>
+  </g>
+</svg>

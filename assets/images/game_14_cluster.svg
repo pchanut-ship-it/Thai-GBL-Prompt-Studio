@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="forestGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#forestGrad)"/>
+
+  <!-- Top bar -->
+  <rect x="60" y="24" width="1160" height="64" rx="16" fill="#065f46" opacity="0.9"/>
+  <text x="100" y="65" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#ecfdf5">🌲 ภารกิจพิชิตอักษรนำและคำควบกล้ำ (Phonics Quest)</text>
+  <rect x="980" y="38" width="200" height="36" rx="18" fill="#10b981" opacity="0.3"/>
+  <text x="1080" y="62" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#6ee7b7" text-anchor="middle">🔊 เสียงนำทาง: เปิด</text>
+
+  <!-- Question Box -->
+  <g transform="translate(240, 120)">
+    <rect width="800" height="130" rx="18" fill="#047857" stroke="#34d399" stroke-width="2"/>
+    <text x="400" y="55" font-family="'Prompt', sans-serif" font-size="22" font-weight="bold" fill="#fff" text-anchor="middle">
+      "จงฟังเสียง แล้วเลือกเส้นทางคำที่มีเสียง 'อักษรนำ' แท้จริง!"
+    </text>
+    <g transform="translate(330, 75)">
+      <rect width="140" height="40" rx="20" fill="#f59e0b"/>
+      <text x="70" y="26" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#78350f" text-anchor="middle">🔊 กดฟังเสียง</text>
+    </g>
+  </g>
+
+  <!-- Split Branching Paths (ทางแยกผจญภัย) -->
+  <path d="M 640 270 Q 640 370 280 430" fill="none" stroke="#d97706" stroke-width="28" stroke-linecap="round"/>
+  <path d="M 640 270 Q 640 370 640 430" fill="none" stroke="#d97706" stroke-width="28" stroke-linecap="round"/>
+  <path d="M 640 270 Q 640 370 1000 430" fill="none" stroke="#d97706" stroke-width="28" stroke-linecap="round"/>
+
+  <!-- Character at crossroad -->
+  <circle cx="640" cy="285" r="32" fill="#38bdf8" stroke="#fff" stroke-width="4"/>
+  <text x="640" y="293" font-size="26" text-anchor="middle">🏃</text>
+
+  <!-- Path A -->
+  <g transform="translate(130, 440)">
+    <rect width="300" height="180" rx="20" fill="#065f46" stroke="#6ee7b7" stroke-width="3"/>
+    <text x="150" y="45" font-family="'Prompt', sans-serif" font-size="18" fill="#a7f3d0" text-anchor="middle">เส้นทางที่ 1</text>
+    <text x="150" y="105" font-family="'Prompt', sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">ขนม</text>
+    <rect x="60" y="130" width="180" height="34" rx="17" fill="#10b981"/>
+    <text x="150" y="153" font-family="'Prompt', sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">เลือกทางนี้ ➔</text>
+  </g>
+
+  <!-- Path B -->
+  <g transform="translate(490, 440)">
+    <rect width="300" height="180" rx="20" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <text x="150" y="45" font-family="'Prompt', sans-serif" font-size="18" fill="#94a3b8" text-anchor="middle">เส้นทางที่ 2</text>
+    <text x="150" y="105" font-family="'Prompt', sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">จริงใจ</text>
+    <rect x="60" y="130" width="180" height="34" rx="17" fill="#475569"/>
+    <text x="150" y="153" font-family="'Prompt', sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">เลือกทางนี้ ➔</text>
+  </g>
+
+  <!-- Path C -->
+  <g transform="translate(850, 440)">
+    <rect width="300" height="180" rx="20" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <text x="150" y="45" font-family="'Prompt', sans-serif" font-size="18" fill="#94a3b8" text-anchor="middle">เส้นทางที่ 3</text>
+    <text x="150" y="105" font-family="'Prompt', sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">กราบพระ</text>
+    <rect x="60" y="130" width="180" height="34" rx="17" fill="#475569"/>
+    <text x="150" y="153" font-family="'Prompt', sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">เลือกทางนี้ ➔</text>
+  </g>
+
+  <!-- Footer Tip -->
+  <text x="640" y="680" font-family="'Prompt', sans-serif" font-size="16" fill="#a7f3d0" text-anchor="middle">
+    💡 เคล็ดลับหลักภาษา: "ขนม" อ่านว่า ขะ-หนม พยางค์หลังออกเสียงเหมือนมี ห นำ จัดเป็นอักษรนำ!
+  </text>
+</svg>

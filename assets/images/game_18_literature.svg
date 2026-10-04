@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="litGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="50%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="scrollGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#litGrad)"/>
+
+  <!-- Top Bar -->
+  <rect x="60" y="24" width="1160" height="64" rx="16" fill="#1c1917" stroke="#b45309" stroke-width="2"/>
+  <text x="100" y="65" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fef3c7">📜 ประลองวรรณคดีไทย (Thai Literature Realm)</text>
+  <rect x="920" y="38" width="260" height="36" rx="18" fill="#d97706" opacity="0.3"/>
+  <text x="1050" y="62" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fde68a" text-anchor="middle">📖 ตอน: กำเนิดสุดสาคร</text>
+
+  <!-- Left: Literature Character Dialogue & Scene -->
+  <g transform="translate(80, 110)">
+    <rect width="480" height="560" rx="20" fill="#292524" stroke="#78350f" stroke-width="2"/>
+    <rect x="25" y="25" width="430" height="260" rx="14" fill="#1c1917"/>
+    <!-- Graphic Illustration of Hermit/Sud-sakhon -->
+    <circle cx="240" cy="120" r="60" fill="#f59e0b" opacity="0.2"/>
+    <text x="240" y="140" font-size="70" text-anchor="middle">🧙‍♂️</text>
+    <text x="240" y="220" font-family="'Prompt', sans-serif" font-size="22" font-weight="bold" fill="#fbbf24" text-anchor="middle">พระฤๅษีเกาะแก้วพิสดาร</text>
+    <text x="240" y="250" font-family="'Prompt', sans-serif" font-size="14" fill="#a8a29e" text-anchor="middle">NPC ผู้พิทักษ์คติธรรมวรรณกรรม</text>
+
+    <!-- Dialogue Bubble -->
+    <rect x="25" y="310" width="430" height="220" rx="14" fill="url(#scrollGrad)" stroke="#b45309"/>
+    <text x="45" y="345" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#78350f">บทกลอนปริศนาประจำด่าน:</text>
+    <text x="45" y="385" font-family="'Prompt', serif" font-size="17" fill="#451a03">
+      "แล้วสอนว่าอย่าไว้ใจมนุษย์
+    </text>
+    <text x="45" y="415" font-family="'Prompt', serif" font-size="17" fill="#451a03">
+      มันแสนสุดลึกล้ำเหลือกำหนด..."
+    </text>
+    <text x="45" y="455" font-family="'Prompt', sans-serif" font-size="14" fill="#78350f">
+      💡 คำถาม: คติธรรมจากกลอนข้างต้น มุ่งเตือนสติเรื่องใดมากที่สุด?
+    </text>
+  </g>
+
+  <!-- Right: Multiple Choice & Literature Lore Book -->
+  <g transform="translate(600, 110)">
+    <rect width="600" height="560" rx="20" fill="#292524" stroke="#78350f" stroke-width="2"/>
+    <text x="35" y="45" font-family="'Prompt', sans-serif" font-size="20" font-weight="bold" fill="#fef3c7">⚔️ ประลองคำตอบเพื่อปลดล็อกตราประทับ</text>
+
+    <!-- Choice 1 -->
+    <g transform="translate(35, 75)">
+      <rect width="530" height="85" rx="14" fill="#1c1917" stroke="#57534e" stroke-width="2"/>
+      <circle cx="45" cy="42" r="20" fill="#78350f"/>
+      <text x="45" y="49" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">ก</text>
+      <text x="85" y="38" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#f5f5f4">การใช้ชีวิตอย่างระมัดระวังรอบคอบ</text>
+      <text x="85" y="62" font-family="'Prompt', sans-serif" font-size="13" fill="#a8a29e">และไม่ประมาทหลงเชื่อใจใครง่ายดาย</text>
+    </g>
+
+    <!-- Choice 2 -->
+    <g transform="translate(35, 175)">
+      <rect width="530" height="85" rx="14" fill="#1c1917" stroke="#57534e" stroke-width="2"/>
+      <circle cx="45" cy="42" r="20" fill="#78350f"/>
+      <text x="45" y="49" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">ข</text>
+      <text x="85" y="38" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#f5f5f4">การออกเดินทางค้นหาบิดาในทะเลกว้าง</text>
+      <text x="85" y="62" font-family="'Prompt', sans-serif" font-size="13" fill="#a8a29e">พร้อมม้านิลมังกรคู่ใจ</text>
+    </g>
+
+    <!-- Choice 3 -->
+    <g transform="translate(35, 275)">
+      <rect width="530" height="85" rx="14" fill="#1c1917" stroke="#57534e" stroke-width="2"/>
+      <circle cx="45" cy="42" r="20" fill="#78350f"/>
+      <text x="45" y="49" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">ค</text>
+      <text x="85" y="38" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#f5f5f4">การฝึกฝนวิชาเวทมนตร์คาถาอาคม</text>
+      <text x="85" y="62" font-family="'Prompt', sans-serif" font-size="13" fill="#a8a29e">เพื่อเอาชนะอสูรกาย</text>
+    </g>
+
+    <!-- Codex Progress -->
+    <g transform="translate(35, 385)">
+      <rect width="530" height="140" rx="14" fill="#1c1917" stroke="#b45309"/>
+      <text x="25" y="35" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fbbf24">สมุดบันทึกวรรณคดี (Codex Collection):</text>
+      <text x="25" y="70" font-family="'Prompt', sans-serif" font-size="14" fill="#d6d3d1">🎖️ ปลดล็อกแล้ว: สุนทรภู่, ไม้เท้าวิเศษ, ม้านิลมังกร</text>
+      <text x="25" y="105" font-family="'Prompt', sans-serif" font-size="14" fill="#a8a29e">🔒 ด่านถัดไป: ศึกทศกัณฐ์ (วรรณคดีรามเกียรติ์)</text>
+    </g>
+  </g>
+</svg>

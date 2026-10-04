@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bingoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="50%" stop-color="#581c87"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bingoBg)"/>
+
+  <!-- Top bar -->
+  <rect x="60" y="24" width="1160" height="64" rx="16" fill="#1e1b4b" stroke="#7e22ce" stroke-width="2"/>
+  <text x="100" y="65" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fdf4ff">🎯 บิงโกภาษาไทยออนไลน์ (Multiplayer Thai Bingo)</text>
+  <rect x="880" y="38" width="160" height="36" rx="18" fill="#a855f7" opacity="0.3"/>
+  <text x="960" y="62" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#e9d5ff" text-anchor="middle">👥 ผู้เล่น 24 คน</text>
+  <rect x="1060" y="38" width="140" height="36" rx="18" fill="#eab308" opacity="0.3"/>
+  <text x="1130" y="62" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fde047" text-anchor="middle">⚡ ห้อง #TH-89</text>
+
+  <!-- Left: Live Question Caller (ลูกบอลคำใบ้) -->
+  <g transform="translate(80, 120)">
+    <rect width="400" height="540" rx="20" fill="#2e1065" stroke="#9333ea" stroke-width="2"/>
+    <text x="200" y="50" font-family="'Prompt', sans-serif" font-size="20" font-weight="bold" fill="#f5d0fe" text-anchor="middle">🔔 คำใบ้รอบปัจจุบัน</text>
+    
+    <!-- Big Caller Ball -->
+    <circle cx="200" cy="160" r="80" fill="#ec4899" stroke="#fbcfe8" stroke-width="6"/>
+    <text x="200" y="150" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle">หมวดคำ</text>
+    <text x="200" y="185" font-family="'Prompt', sans-serif" font-size="30" font-weight="bold" fill="#fff" text-anchor="middle">แม่ กน</text>
+
+    <!-- Question Description -->
+    <rect x="30" y="270" width="340" height="150" rx="14" fill="#3b0764" stroke="#a855f7"/>
+    <text x="45" y="310" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#fde047">โจทย์ปริศนา:</text>
+    <text x="45" y="345" font-family="'Prompt', sans-serif" font-size="16" fill="#fdf4ff">"คำที่มี น หรือตัวสะกดตรงมาตรา</text>
+    <text x="45" y="375" font-family="'Prompt', sans-serif" font-size="16" fill="#fdf4ff">หมายถึง สิ่งที่ใช้เขียนหรือวาด"</text>
+
+    <!-- Timer bar -->
+    <rect x="30" y="445" width="340" height="12" rx="6" fill="#4c1d95"/>
+    <rect x="30" y="445" width="220" height="12" rx="6" fill="#eab308"/>
+    <text x="200" y="485" font-family="'Prompt', sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">⏱️ เหลือเวลา 8 วินาที</text>
+
+    <!-- BINGO Button -->
+    <rect x="30" y="500" width="340" height="50" rx="25" fill="#f43f5e"/>
+    <text x="200" y="533" font-family="'Prompt', sans-serif" font-size="22" font-weight="black" fill="#fff" text-anchor="middle">🎉 ประกาศ BINGO!</text>
+  </g>
+
+  <!-- Right: 5x5 Thai Bingo Card Grid -->
+  <g transform="translate(520, 120)">
+    <rect width="680" height="540" rx="20" fill="#2e1065" stroke="#9333ea" stroke-width="2"/>
+    
+    <!-- B-I-N-G-O Headers -->
+    <g transform="translate(40, 25)">
+      <rect x="0" y="0" width="110" height="45" rx="8" fill="#e11d48"/>
+      <text x="55" y="32" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">B</text>
+
+      <rect x="122" y="0" width="110" height="45" rx="8" fill="#ea580c"/>
+      <text x="177" y="32" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">I</text>
+
+      <rect x="244" y="0" width="110" height="45" rx="8" fill="#ca8a04"/>
+      <text x="299" y="32" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">N</text>
+
+      <rect x="366" y="0" width="110" height="45" rx="8" fill="#16a34a"/>
+      <text x="421" y="32" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">G</text>
+
+      <rect x="488" y="0" width="110" height="45" rx="8" fill="#0284c7"/>
+      <text x="543" y="32" font-family="'Prompt', sans-serif" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">O</text>
+    </g>
+
+    <!-- Grid Cards Sample (4 rows visible) -->
+    <!-- Row 1 -->
+    <g transform="translate(40, 85)">
+      <rect x="0" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle">ก้อนหิน</text>
+
+      <rect x="122" y="0" width="110" height="80" rx="8" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(122, 0)">ดินสอ ✓</text>
+
+      <rect x="244" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(244, 0)">กาน้ำ</text>
+
+      <rect x="366" y="0" width="110" height="80" rx="8" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(366, 0)">วาฬ ✓</text>
+
+      <rect x="488" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(488, 0)">เมฆ</text>
+    </g>
+
+    <!-- Row 2 (with FREE center) -->
+    <g transform="translate(40, 180)">
+      <rect x="0" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle">ร่ม</text>
+
+      <rect x="122" y="0" width="110" height="80" rx="8" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(122, 0)">นก ✓</text>
+
+      <rect x="244" y="0" width="110" height="80" rx="8" fill="#f59e0b" stroke="#fef08a" stroke-width="3"/>
+      <text x="55" y="42" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#78350f" text-anchor="middle" transform="translate(244, 0)">★ FREE ★</text>
+      <text x="55" y="62" font-family="'Prompt', sans-serif" font-size="12" fill="#78350f" text-anchor="middle" transform="translate(244, 0)">ช่องฟรี</text>
+
+      <rect x="366" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(366, 0)">สมุด</text>
+
+      <rect x="488" y="0" width="110" height="80" rx="8" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(488, 0)">ปลา ✓</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(40, 275)">
+      <rect x="0" y="0" width="110" height="80" rx="8" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle">บ้าน ✓</text>
+
+      <rect x="122" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(122, 0)">ดาว</text>
+
+      <rect x="244" y="0" width="110" height="80" rx="8" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(244, 0)">มังกร ✓</text>
+
+      <rect x="366" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(366, 0)">ไฟฉาย</text>
+
+      <rect x="488" y="0" width="110" height="80" rx="8" fill="#4c1d95" stroke="#7e22ce"/>
+      <text x="55" y="48" font-family="'Prompt', sans-serif" font-size="18" fill="#fff" text-anchor="middle" transform="translate(488, 0)">ช้อน</text>
+    </g>
+
+    <!-- Bingo Status alert -->
+    <text x="340" y="405" font-family="'Prompt', sans-serif" font-size="16" fill="#fbcfe8" text-anchor="middle">
+      ✨ เหลืออีกเพียง 1 ช่องจะบิงโกในแนวทแยง!
+    </text>
+  </g>
+</svg>
